@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 960px) {
+  .text-area {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-logo {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page-nav {
+    display: none;
+  }
+
+  #page-utility {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+}

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Looking for wordpress plugin",
+      "author": 1,
+      "content": "I look for a wordpress plugin that allows user to create a listing with their bio and social media links on my site for a fee. It should also have some shortcode so I can include a section in the home page where every listing would appear. Do you know of a plugin that does that?)"
+    },
+    {
+      "id": 2,
+      "title": "Joomla Templates",
+      "author": 2,
+      "content": "Could someone post/link me to some good joomla templates? I have searched google over and over... And i've yet to find one."
+    }
+  ]
+}
