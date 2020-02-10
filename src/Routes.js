@@ -20,28 +20,28 @@ function Routes() {
       <Nav />
       <Tab />
       <Switch>
-        <Route exact path={"/"}>
+        <Route exact path="/">
           <Home />
         </Route>
-        <Route path={"/tools"}>
+        <Route path="/tools">
           <Tools />
         </Route>
-        <Route exact path={"/contact"}>
+        <Route exact path="/contact">
           <Contact />
         </Route>
-        <Route path={"/info"}>
+        <Route path="/info">
           <Info />
         </Route>
-        <Route path={"/web"}>
+        <Route path="/web">
           <Web />
         </Route>
-        <Route path={"/code"}>
+        <Route path="/code">
           <Code />
         </Route>
-        <Route path={"/hack"}>
+        <Route path="/hack">
           <Hack />
         </Route>
-        <Route path={"/gfx"}>
+        <Route path="/gfx">
           <Gfx />
         </Route>
       </Switch>

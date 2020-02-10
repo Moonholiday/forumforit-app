@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import CreateThread from "../components/CreateThread";
 
 class Code extends Component {
   state = {
@@ -18,15 +19,16 @@ class Code extends Component {
         <div className="title">
           <h1>Programming, Coding, and Languages</h1>
         </div>
-
         <div id="content" className="content">
           <h2>Forum</h2>
-          <br />
           {this.state.code.map(item => (
             <section className="title">
               <ul>{item.title}</ul>
             </section>
           ))}
+        </div>
+        <div className="content">
+          <CreateThread />
         </div>
       </>
     );

@@ -95,7 +95,7 @@ body {
 
 .tab button:hover {
   background-color: #4d4d4d;
-  transform: scale(1.1);
+
   cursor: pointer;
 }
 
@@ -110,6 +110,11 @@ body {
   background-color: #262626;
   color: #fff;
   margin: 2em;
+}
+.content h2 {
+  padding-left: 1.6em;
+  padding-top: 0.5em;
+  padding-bottom: 0.7em;
 }
 /* title container */
 .title {

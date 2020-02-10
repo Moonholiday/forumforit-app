@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 class Gfx extends Component {
   state = {
@@ -23,9 +24,10 @@ class Gfx extends Component {
           <h1>Graphics</h1>
         </div>
         <div id="content" className="content">
+          <h2>Forum</h2>
           {this.state.gfx.map(item => (
             <section className="title">
-              <ul>{item.title}</ul>
+              <Link to>{item.title}</Link>
             </section>
           ))}
         </div>
