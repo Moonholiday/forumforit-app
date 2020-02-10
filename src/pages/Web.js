@@ -6,20 +6,30 @@ class Web extends Component {
     post: []
   };
   componentDidMount() {
-    axios.get("http://localhost:3001/posts").then(response => {
-      const post = response.data;
-      this.setState({ post });
+    axios.get("http://localhost:3001/post").then(response => {
+      this.setState({ post: response.data });
     });
   }
 
   render() {
     return (
       <>
-        <ul>
-          {this.state.post.map(post => (
-            <li>{post.title}</li>
-          ))}
-        </ul>
+        <div className="content" id="content">
+          <h1>Webmasters</h1>
+        </div>
+        <div className="content">
+          <div className="title">
+            <h2>Forum</h2>
+          </div>
+          <section className="title">
+            <h3>Website Construction</h3>
+            <ul>
+              {this.state.post.map(item => (
+                <li>{item.gfx.title}</li>
+              ))}
+            </ul>
+          </section>
+        </div>
       </>
     );
   }

@@ -1,0 +1,101 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "title": "Rules and Etiquette"
+    },
+    {
+      "id": 2,
+      "title": "Disallowed Blackhack Activity"
+    },
+    {
+      "id": 3,
+      "title": "Profile policies, Violations"
+    },
+    {
+      "id": 4,
+      "title": "Reporting posts"
+    }
+  ],
+
+  "web": [
+    {
+      "id": 1,
+      "title": "Looking for wordpress plugin",
+      "author": "Dwyane Wade",
+      "content": "I look for a wordpress plugin that allows user to create a listing with their bio and social media links on my site for a fee. It should also have some shortcode so I can include a section in the home page where every listing would appear. Do you know of a plugin that does that?)"
+    },
+    {
+      "id": 2,
+      "title": "Joomla Templates",
+      "author": "Marq",
+      "content": "Could someone post/link me to some good joomla templates? I have searched google over and over... And i've yet to find one."
+    },
+    {
+      "id": 3,
+      "title": "[Wordpress] WordPress developer",
+      "author": "Someone",
+      "content": "WordPress developer wanted for my website. Please PM me your skype."
+    }
+  ],
+  "code": [
+    {
+      "id": 1,
+      "title": "Bypass Cloudflare antibot protection for scraping",
+      "author": 1,
+      "content": "Is there any framework out there to do so?"
+    },
+    {
+      "id": 2,
+      "title": "Python selenium webdriver problem",
+      "author": 2,
+      "content": "Hi, i will try use one python script but i see this _error_; http://prntscr.com/qjpnhv. If i try change chromedriver with geckodriver i see same problem. Also, i see same problem when i try change other python script. How can i solve? thanks"
+    },
+    {
+      "id": 3,
+      "title": "Getting text from script using beautifulsoup and json",
+      "author": 3,
+      "content": "Can anyone help me with webscraping with beautifulsoup??"
+    }
+  ],
+  "hack": [
+    {
+      "id": 1,
+      "title": " Looking for Small Bounty Vuln Hunters",
+      "author": 1,
+      "content": "Trying to look into vuln-hunting these smalltime sites individually. Please let me know if you're of any assistance, can pay for help."
+    },
+    {
+      "id": 2,
+      "title": "Looking for someone with networking knowledge (packets)",
+      "author": 2,
+      "content": "Hey! As you can assume I'm looking for someone with knowledge in networking. Specifically in some kind of MITM. So what I am trying to do is to modify a packet which is send from my client to the server. Although the communication is not really encrypted I somehow can't get it to work... UDP is used. Here is a snippet of the data (only the data) :Spoiler (Click to View)The data shows a transfer of a shovel from inventory A -> B.What I want to do is to modify that packet, so it would transfer 2 shovels even if I only have one. Or to do the transfer even if I have no shovel.If you have any idea how I could make this work or why it won't work, I would be very grateful to know."
+    },
+    {
+      "id": 3,
+      "title": "whats the best VPN youve ever used?",
+      "author": 3,
+      "content": "hey guys, i’m just wondering about your experiences with VPNs? could you suggest a few please? thank you very much."
+    }
+  ],
+  "gfx": [
+    {
+      "id": 1,
+      "title": "Best site to create IG video story ads?",
+      "author": 1,
+      "content": "What are your suggestions? I googled and I found a lot of sites that offer that service, but so far I find only sites with a small number of templates.Do you have any suggestions? I don't want to use after effects or any other time consuming software. I want sites with easy templates that I can edit fast."
+    },
+    {
+      "id": 2,
+      "title": "Looking for someone who can recreate a logo for my brand",
+      "author": 2,
+      "content": "So i recieved a logo for a project i was working on a while ago.and now i have reconcidered changing the logo and therefore i need someone who can help me create this logo in diferent sizes to be able to fit all kinds of merch.this should be a 5-10 minute job for the skilled GFX'er so let me know if you are interested in the details of the recreation by sending me a pm.and i'll explain further what needs to be done."
+    },
+    {
+      "id": 3,
+      "title": "Can you help me sync GoPro and garageband outputs?",
+      "author": 3,
+      "content": "I want to use GoPro for video recording, and sync it with the music I am recording through garageband. The sound quality of GoPro is not so good. Has anyone done that before?"
+    }
+  ]
+}
