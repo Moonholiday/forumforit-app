@@ -4,9 +4,11 @@ function Header() {
   return (
     <>
       <header>
-        <Link to={"/"}>
-          <img className="page-logo" src="images/Logo.png" alt="Logo" />
-        </Link>
+        <div className="page-logo">
+          <Link to="/">
+            <img src="images/Logo.png" alt="Logo" />
+          </Link>
+        </div>
       </header>
     </>
   );

@@ -4,40 +4,26 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <>
-      <div id="page-utility" className="page-utility clearfix">
-        <button id="profile">
-          <img src="images/profile.png" alt="profile" />
-        </button>
-        <button id="menu" className="utility-buttons">
-          <img src="images/grid.png" alt="menu" />
-        </button>
-        <button id="login" className="utility-buttons">
-          Login
-        </button>
-        <button id="register" className="utility-buttons">
-          Register
-        </button>
-      </div>
       <div className="page-nav">
         <ul className="navigation">
           <li>
             <Link to={"/"}>
-              <img src="images/home.png" />
+              <img src="images/home.png" alt="home" />
             </Link>
           </li>
           <li>
             <Link to={"/tools"}>
-              <img src="images/tools.png" />
+              <img src="images/tools.png" alt="tools" />
             </Link>
           </li>
           <li>
             <Link to={"/contact"}>
-              <img src="images/contact.png" />
+              <img src="images/contact.png" alt="contact" />
             </Link>
           </li>
           <li>
             <Link to={"/info"}>
-              <img src="images/info.png" />
+              <img src="images/info.png" alt="info" />
             </Link>
           </li>
         </ul>

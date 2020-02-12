@@ -1,20 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function MobileNav() {
   return (
     <>
-      <div id="page-utility" className="page-utility clearfix">
+      <div id="mobile-menu" className="mobile-menu">
+        <Link to="/">Home</Link>
+        <Link to="/tools">Tools</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/info">Info</Link>
+      </div>
+      <div id="mobile-nav" className="mobile-nav clearfix">
         <button id="profile">
           <img src="images/profile.png" alt="profile" />
         </button>
-        <button id="menu" className="utility-buttons">
-          <img src="images/grid.png" alt="menu" />
+        <button id="menu" className="mobile-btns" onclick="displayMenu()">
+          <img src="images/menu.png" alt="menu" />
         </button>
-        <button id="login" className="utility-buttons">
+        <button id="login" className="mobile-btns">
           Login
         </button>
-        <button id="register" className="utility-buttons">
-          Register
+        <button id="signup" className="mobile-btns">
+          Sign Up
         </button>
       </div>
     </>

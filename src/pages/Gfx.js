@@ -20,17 +20,24 @@ class Gfx extends Component {
   render() {
     return (
       <>
-        <div className="title">
+        <div className="page-title">
           <h1>Graphics</h1>
         </div>
-        <div id="content" className="content">
+        <div id="content" className="outer-block">
           <h2>Forum</h2>
           {this.state.gfx.map(item => (
-            <section className="title">
-              <Link to>{item.title}</Link>
+            <section className="block">
+              <ul>
+                <h3 className="block-title">{item.title}</h3>
+                <h5>{item.author}</h5>
+                <p>{item.body}</p>
+              </ul>
             </section>
           ))}
-        </div>
+          <Link to="/create-thread">
+            <button>Create new thread.</button>
+          </Link>
+        </div>{" "}
       </>
     );
   }

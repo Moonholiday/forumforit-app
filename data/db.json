@@ -1,106 +1,76 @@
 {
-  "rules": [
-    {
-      "id": 1,
-      "title": "Rules and Etiquette"
-    },
-    {
-      "id": 2,
-      "title": "Disallowed Blackhack Activity"
-    },
-    {
-      "id": 3,
-      "title": "Profile policies, Violations"
-    },
-    {
-      "id": 4,
-      "title": "Reporting posts"
-    }
-  ],
   "web": [
     {
-      "title": "Looking for wordpress plugin",,
-      "date": "2020-01-03",
-      "author": "Dwyane Wade",
-      "content": "I look for a wordpress plugin that allows user to create a listing with their bio and social media links on my site for a fee. It should also have some shortcode so I can include a section in the home page where every listing would appear. Do you know of a plugin that does that?)"
-    },
-    {
-      "title": 2,
-      "date": "Joomla Templates",
-      "author": "Marq",
-      "content": "Could someone post/link me to some good joomla templates? I have searched google over and over... And i've yet to find one."
-    },
-    {
-      "title": 3,
-      "date": "[Wordpress] WordPress developer",
-      "author": "Someone",
-      "content": "WordPress developer wanted for my website. Please PM me your skype."
+      "title": "Anyone have experience with Woozone?",
+      "author": "Anyone have experience with Woozone?  Quality_k1nG",
+      "body": "Hey Guys\n\nCurrently, I am trying to make a site with woo-commerce + woozone and ya I picked up nulled theme checked for virus thou but the main problem is the products are not getting imported I tried installing the chrome extension but Idk why it's not working\n\nCan any one help me?\n\nThanks in advance.",
+      "id": 1
     }
   ],
   "code": [
     {
-      "title": 1,
-      "date": "Bypass Cloudflare antibot protection for scraping",
-      "author": 1,
-      "content": "Is there any framework out there to do so?"
+      "title": "can somebody expalin this",
+      "author": "madjar123",
+      "body": "Hello can i ask you one question ? so when i make payload for windows and i type my ip adress in lhost,when i try to type my ip adress on windows machine on google nothing happen i cant go to that server why is that same problem whit android payload i dont understand,but when i type on linux machine that ip on monzila i get resoult why is that happening ? thanks",
+      "id": 1
     },
     {
-      "title": 2,
-      "date": "Python selenium webdriver problem",
-      "author": 2,
-      "content": "Hi, i will try use one python script but i see this _error_; http://prntscr.com/qjpnhv. If i try change chromedriver with geckodriver i see same problem. Also, i see same problem when i try change other python script. How can i solve? thanks"
+      "title": " Discord bot that auto invites new users to a channel?",
+      "author": "ZietzSeV",
+      "body": "Is there a way to do this? I see tutorials/apis for writing Discord text bots, that looks relatively simple but I am looking into something that can auto add.\n\nI want a bot/script that can go into a popular channel and basically go through the members and pm them an invite link.",
+      "id": 2
     },
     {
-      "title": 3,
-      "date": "Getting text from script using beautifulsoup and json",
-      "author": 3,
-      "content": "Can anyone help me with webscraping with beautifulsoup??"
+      "title": " [Help] Might sound dumb but i wanna learn lua",
+      "author": "sethhh",
+      "body": "I need to know how to properly use lua and how to get it currently i use Roblox and try to mess around with things in there but what is a proper way to start learning lua?",
+      "id": 3
     },
     {
-      "title": "python for noobs",
-      "date": "2020-02-03",
-      "author": "johnjohn",
-      "content": "Whatever"
+      "title": "[Help] How to bridge Lua & C++ for plugins?",
+      "author": "Sybyl",
+      "body": "Hi all 👍 , i'm coding a software of security 🤫 on c++, and i want to implement a modular structure, i mean a way to create plugins directly on lua(like other softwares that do this) without touching all the entire C++ code for every plugin, this is because the man who's paying me for do it needs to implement it over other software on his actual server (i have's some kind of weird streaming platform i donut 😧 ).\n\nI only need to know how to connect the two languages, i understand lua but most of my knowledge is on C++ and C...so i need a hand to finish this project 🤭\n\nThanks anyway 🤝",
+      "id": 4
+    },
+    {
+      "title": "code help",
+      "author": "ori231",
+      "body": "how do i make so if i write perl \"mehotd\" and instead of ip a name and it will put the ip automatically ?\nso like if $ip = oren then\n$ip= 10.1.1.1.1",
+      "id": 5
     }
   ],
   "hack": [
     {
-      "title": 1,
-      "date": " Looking for Small Bounty Vuln Hunters",
-      "author": 1,
-      "content": "Trying to look into vuln-hunting these smalltime sites indivtitleually. Please let me know if you're of any assistance, can pay for help."
+      "title": "Email Spoofing",
+      "author": "DeeRon",
+      "body": "Does anyone know how to spoof email $$$",
+      "id": 1
     },
     {
-      "title": 2,
-      "title": "Looking for someone with networking knowledge (packets)",
-      "author": 2,
-      "content": "Hey! As you can assume I'm looking for someone with knowledge in networking. Specifically in some kind of MITM. So what I am trying to do is to modify a packet which is send from my client to the server. Although the communication is not really encrypted I somehow can't get it to work... UDP is used. Here is a snippet of the data (only the data) :Spoiler (Click to View)The data shows a transfer of a shovel from inventory A -> B.What I want to do is to modify that packet, so it would transfer 2 shovels even if I only have one. Or to do the transfer even if I have no shovel.If you have any titleea how I could make this work or why it won't work, I would be very grateful to know."
-    },
-    {
-      "title": 3,
-      "title": "whats the best VPN youve ever used?",
-      "author": 3,
-      "content": "hey guys, i’m just wondering about your experiences with VPNs? could you suggest a few please? thank you very much."
+      "title": "Can i get free VPN For kali linux",
+      "author": "4NSF",
+      "body": "IS THAT POSSIBLE GET FREE VPN ON KALI LINUX\n  \nHF Rulez the Universe\nCharger\nCharger Offline\n★★★ SOCKS5 PROXY PROVIDER ★★★\n*****\nHF V3ndors\nPosts:12,692\nThreads:720\nB Rating:2800\nPopularity:716\nβytes: β 11,159.71\nGame XP:1,622\n  #211-20-2019, 08:57 PM\nWhat do you mean? You can find a free one online or use proxies.\n[Image: R4nkxxv.jpg]\nEarn $Crypto$ by referring others!\n  \n__Digital__\n__Digital__ Offline\nSenior Server Admin\n***\nHF Ub3r\nPosts:3,042\nThreads:46\nB Rating:2200\nPopularity:347\nβytes: β 1,650.5\nGame XP:0\n  #311-20-2019, 11:29 PM\n(11-20-2019, 07:22 PM)4NSF Wrote:  \nIS THAT POSSIBLE GET FREE VPN ON KALI LINUX\n\nFree means dns leaks etc. So it is not advised to use free, best thing you can do is buy a vps/dedicated setup your own VPN\n  \nItsGavinM8\nItsGavinM8 Offline\n[closed@HF:]\nPosts:137\nThreads:2\nB Rating:000\nPopularity:26\nβytes: β 0\nGame XP:0\n  #411-20-2019, 11:30 PM\nYou could also setup Kali to proxy through the TOR circuits, it would be pretty slow though.\n  \nCharger\nCharger Offline\n★★★ SOCKS5 PROXY PROVIDER ★★★\n*****\nHF V3ndors\nPosts:12,692\nThreads:720\nB Rating:2800\nPopularity:716\nβytes: β 11,159.71\nGame XP:1,622\n  #511-22-2019, 01:46 PM\n(11-20-2019, 11:30 PM)ItsGavinM8 Wrote:  \nYou could also setup Kali to proxy through the TOR circuits, it would be pretty slow though.\n\nThat’ll be slower than Clay Davis though for day to day traffic.\n[Image: R4nkxxv.jpg]\nEarn $Crypto$ by referring others!\n  \nanon0x1x2x3x4\nanon0x1x2x3x4 Offline\n[newb@HF:]\n*\nPosts:4\nThreads:0\nB Rating:000\nPopularity:0\nβytes: β 13\nGame XP:0\n  #611-23-2019, 06:26 AM\n(11-20-2019, 11:29 PM)__Digital__ Wrote:  \nFree means dns leaks etc. So it is not advised to use free, best thing you can do is buy a vps/dedicated setup your own/showthread.php?tid=6025730]VPN[/url]\n\nn000b\n  \nHaeevia\nHaeevia Offline\nSmug\n*\nHF l33t\nPosts:36\nThreads:2\nB Rating:200\nPopularity:0\nβytes: β 74.66\nGame XP:125\n  #702-03-2020, 12:55 PM\nAnonymize has options for all OS' since it's using OpenVPN.\nhttps://anonymize.com/vpn/\n  \nAnonMouse\nAnonMouse Offline\n[newb@HF:]\n*\nPosts:52\nThreads:1\nB Rating:000\nPopularity:0\nβytes: β 208\nGame XP:0\n  #802-06-2020, 02:43 PM\nVPN are the best but only if you trust the company I am not sure but i wish you good luck\n  \nEnter Keywords\n \n",
+      "id": 2
     }
   ],
   "gfx": [
     {
-      "title": 1,
-      "title": "Best site to create IG vtitleeo story ads?",
-      "author": 1,
-      "content": "What are your suggestions? I googled and I found a lot of sites that offer that service, but so far I find only sites with a small number of templates.Do you have any suggestions? I don't want to use after effects or any other time consuming software. I want sites with easy templates that I can edit fast."
+      "title": "Need TIPS tricks maybe templates for club flyers",
+      "author": "Dax",
+      "body": "I've been working for this club for about 2 years now and I just ran out of ideas for what to put in posters.\nIs there any good site where you can get cool textures, and also model girls that are free. Maybe also cool things brushes also.\n[Image: swclHDr.gif]",
+      "id": 1
     },
     {
-      "title": 2,
-      "title": "Looking for someone who can recreate a logo for my brand",
-      "author": 2,
-      "content": "So i recieved a logo for a project i was working on a while ago.and now i have reconctitleered changing the logo and therefore i need someone who can help me create this logo in diferent sizes to be able to fit all kinds of merch.this should be a 5-10 minute job for the skilled GFX'er so let me know if you are interested in the details of the recreation by sending me a pm.and i'll explain further what needs to be done."
+      "title": "Portfolio how to",
+      "author": "ANME",
+      "body": "How do I build portfolio? Can I just add stuff which I made for none, no company, for none?",
+      "id": 2
     },
     {
-      "title": 3,
-      "title": "Can you help me sync GoPro and garageband outputs?",
-      "author": 3,
-      "content": "I want to use GoPro for vtitleeo recording, and sync it with the music I am recording through garageband. The sound quality of GoPro is not so good. Has anyone done that before?"
+      "title": "Need help with adobe! CRLoggerTransport/AdobeIPC errors!",
+      "author": "rSM-",
+      "body": "Hello my graphic designers out there! I'm having quite an issue that I cannot find a fix to, and after hours of googling and trying out tutorials and everything else, I'm at a complete loss. I used to use a cracked version of Adobe products (IE After Effects, Photoshop, and Illustrator), and after getting into a graphic design class in college, I decided to purchase the Adobe suite with all Adobe products to help me further my education legally, but my issue comes when trying to uninstall the cracked adobe products and reinstalling the valid adobe products. Every time I try and uninstall CC and the cracked products, an _error_ pops up \"CRLoggerTransport.exe cannot be run\" and \"AdobeIPC.exe cannot be run\". I've manually deleted every adobe file on my PC, but when I go to reinstall CC or any adobe products through my valid license on the website, these errors constantly pop up again. Like I said, I couldn't find a working fix for me and was wondering if any of y'all could possibly provide me with a bit of information or maybe a fix. Thanks :)\nCan I get some help on this please? I'm sure someone knows this issue and how to fix it...",
+      "id": 3
     }
   ]
 }

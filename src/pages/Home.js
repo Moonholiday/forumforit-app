@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter, Link, Router } from "react-router-dom";
-import Tab from "../components/Tab";
 
 class Home extends Component {
   render() {
     return (
       <>
-        <div className="content">
+        <div className="page-title">
           <h1>Home</h1>
         </div>
       </>

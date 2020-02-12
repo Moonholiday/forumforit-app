@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Tools from "./pages/Tools";
 import Contact from "./pages/Contact";
@@ -12,38 +12,26 @@ import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Tab from "./components/Tab";
 import Footer from "./components/Footer";
+import ThreadForm from "./pages/ThreadForm";
+import MobileNav from "./components/MobileNav";
 
 function Routes() {
   return (
     <BrowserRouter>
+      <MobileNav />
       <Header />
       <Nav />
       <Tab />
       <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/tools">
-          <Tools />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/info">
-          <Info />
-        </Route>
-        <Route path="/web">
-          <Web />
-        </Route>
-        <Route path="/code">
-          <Code />
-        </Route>
-        <Route path="/hack">
-          <Hack />
-        </Route>
-        <Route path="/gfx">
-          <Gfx />
-        </Route>
+        <Route exact path="/" component={Home} />
+        <Route path="/tools" component={Tools} />
+        <Route exact path="/contact" component={Contact} />
+        <Route path="/info" component={Info} />
+        <Route path="/web" component={Web} />
+        <Route path="/code" component={Code} />
+        <Route path="/hack" component={Hack} />
+        <Route path="/gfx" component={Gfx} />
+        <Route path="/create-thread" component={ThreadForm} />
       </Switch>
       <Footer />
     </BrowserRouter>
