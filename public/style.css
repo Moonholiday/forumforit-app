@@ -56,32 +56,27 @@ body {
   margin-top: 20px;
 }
 .searchBar input {
-  padding: 20px;
+  padding: 15px;
   background: #262626;
   border: none;
   color: #fff;
   font-size: 20px;
 }
-.searchBar button {
-  margin-left: 5px;
-  background: #262626;
-  border: none;
-  padding-right: 6px;
-  padding-top: 6px;
-  padding-left: 6px;
-  padding-bottom: 6px;
-  cursor: pointer;
-}
 .credit-nav {
   background: #262626;
-  padding: 1em;
+  padding-bottom: 3em;
+  padding-right: 2em;
+  padding-top: 2em;
   margin: 5%;
   border: 2px solid #000;
   border-radius: 10px;
 }
 .credit-nav span {
   margin-left: 2em;
-  margin-right: 2em;
+  float: left;
+}
+.credit-nav p {
+  float: right;
 }
 
 .mobile-nav {

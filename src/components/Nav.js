@@ -32,7 +32,12 @@ function Nav() {
         <span>
           <Link to="/login">Login</Link>
         </span>
-        <Link to="/sign-up">Sign Up</Link>
+        <span>
+          <Link to="/sign-up">Sign Up</Link>
+        </span>
+        <p>
+          <Link to="/search-list">Search</Link>
+        </p>
       </div>
     </>
   );

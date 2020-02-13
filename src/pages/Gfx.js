@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import Nav from "../components/Nav";
 
 class Gfx extends Component {
   state = {
@@ -20,6 +21,7 @@ class Gfx extends Component {
   render() {
     return (
       <>
+        <Nav />
         <div className="page-title">
           <h1>Graphics</h1>
         </div>

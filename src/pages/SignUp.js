@@ -36,6 +36,10 @@ class SignUp extends Component {
     });
   };
 
+  handleSignIn() {
+    let signedUp = true;
+  }
+
   render() {
     return (
       <>
@@ -75,7 +79,9 @@ class SignUp extends Component {
               />
             </p>
             <p>
-              <button type="submit">Sign up</button>
+              <button onClick={this.handleSignIn} type="submit">
+                <Link to="/">Sign up</Link>
+              </button>
             </p>
           </form>
         </div>

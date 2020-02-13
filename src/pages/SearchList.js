@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
-class Search extends Component {
+class SearchList extends Component {
   constructor(props) {
     super();
     this.state = {
@@ -9,7 +10,6 @@ class Search extends Component {
       results: {},
       message: ""
     };
-    this.cancel = "";
   }
   fetchSearchResults = query => {
     let one = `http://localhost:3001/code?q=${query}`;
@@ -28,12 +28,12 @@ class Search extends Component {
           const resTwo = reses[1];
           const resThree = reses[3];
           const resFour = reses[4];
-          console.log(
-            reses[0].data,
-            reses[1].data,
-            reses[2].data,
-            reses[3].data
+          const temp = resOne.data.concat(
+            resTwo.data,
+            resThree.data,
+            resFour.data
           );
+          console.log(temp);
         })
       )
       .catch(error => {
@@ -42,6 +42,14 @@ class Search extends Component {
         }
       });
   };
+  renderSearchResults() {
+    return (
+      <div>
+        <h1>Hello</h1>
+      </div>
+    );
+  }
+
   handleOnInputChange = event => {
     const query = event.target.value;
     this.setState({ query, message: "" }, () => {
@@ -52,20 +60,20 @@ class Search extends Component {
   render() {
     const { query } = this.state;
     return (
-      <div className="searchBar">
-        <input
-          id="search-input"
-          type="text"
-          name="searchBar"
-          value={query}
-          placeholder="Search"
-          onChange={this.handleOnInputChange}
-        />
-        <button>
-          <img src="images/search.png" alt="search" />
-        </button>
-      </div>
+      <>
+        <div className="searchBar">
+          <input
+            id="search-input"
+            type="text"
+            name="searchBar"
+            value={query}
+            placeholder="Search"
+            onChange={this.handleOnInputChange}
+          />
+          {this.renderSearchResults}
+        </div>
+      </>
     );
   }
 }
-export default Search;
+export default SearchList;
