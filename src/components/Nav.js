@@ -27,9 +27,12 @@ function Nav() {
             </Link>
           </li>
         </ul>
-        <div className="searchBar">
-          <input type="text" name="searchBar" placeholder="Search" />
-        </div>
+      </div>
+      <div className="credit-nav">
+        <span>
+          <Link to="/login">Login</Link>
+        </span>
+        <Link to="/sign-up">Sign Up</Link>
       </div>
     </>
   );

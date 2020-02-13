@@ -50,19 +50,38 @@ body {
 }
 
 .searchBar {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  margin-bottom: 4em;
-  display: inline-block;
-  box-shadow: 1px 1px 10px 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 .searchBar input {
-  padding: 10px;
-  height: 1em;
+  padding: 20px;
   background: #262626;
   border: none;
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
+}
+.searchBar button {
+  margin-left: 5px;
+  background: #262626;
+  border: none;
+  padding-right: 6px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+.credit-nav {
+  background: #262626;
+  padding: 1em;
+  margin: 5%;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+.credit-nav span {
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .mobile-nav {
@@ -83,8 +102,42 @@ body {
   width: 17%;
   cursor: pointer;
 }
+
 .mobile-menu {
-  display: none;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #262626;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-size: 17px;
+}
+.mobile-menu div {
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.closebtn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.mobile-menu div:active {
+  background: #404040;
+}
+.mobile-menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 .clearfix {
   overflow: hidden;
@@ -161,49 +214,77 @@ body {
 }
 .block {
   background: #404040;
-  padding: 5px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 10%;
   margin: 2px;
 }
+
 .block input {
   padding: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1em;
-  width: 70%;
+  width: 80%;
   margin-top: 1em;
+  border: none;
+  border-radius: 5px;
+  height: 2em;
 }
 .block select {
   padding: 7px;
   margin-left: 2em;
   margin-bottom: 1em;
   margin-top: 1em;
+  border: none;
+  border-radius: 5px;
 }
 .block textarea {
   display: block;
   resize: none;
-  width: 70%;
+  width: 80%;
   padding: 5px;
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
 }
+.block label {
+  margin-left: 10%;
+}
 .block button {
+  font-size: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.block-title {
+.block h3 {
+  font-size: 25px;
   background: #000;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
-}
-.outer-block h2 {
-  padding-left: 5px;
-  padding-top: 7px;
 }
 .block h5 {
   margin: 1em;
+  font-size: 17px;
+  color: #00e600;
+}
+.block p {
+  padding-top: 2em;
+  font-size: 1.2em;
+}
+
+.forum button {
+  float: right;
+  margin: 0;
+  font-size: 100%;
+}
+.forum {
+  padding-top: 3em;
+  padding-bottom: 4em;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 footer {
@@ -227,15 +308,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 600px) {
   #mobile-nav {
     display: block;
   }
   .page-nav {
     display: none;
   }
+  .credit-nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .outer-block {
     width: 98%;
   }

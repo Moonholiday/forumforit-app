@@ -23,21 +23,21 @@ class Gfx extends Component {
         <div className="page-title">
           <h1>Graphics</h1>
         </div>
-        <div id="content" className="outer-block">
-          <h2>Forum</h2>
+        <div id="content" className="outer-block ">
+          <div className="forum">
+            <Link to="/create-thread">
+              <button>Create new thread</button>
+            </Link>
+            <h2>Forum</h2>
+          </div>
           {this.state.gfx.map(item => (
-            <section className="block">
-              <ul>
-                <h3 className="block-title">{item.title}</h3>
-                <h5>{item.author}</h5>
-                <p>{item.body}</p>
-              </ul>
+            <section className="block ">
+              <h3>{item.title}</h3>
+              <h5>{item.author}</h5>
+              <p>{item.body}</p>
             </section>
           ))}
-          <Link to="/create-thread">
-            <button>Create new thread.</button>
-          </Link>
-        </div>{" "}
+        </div>
       </>
     );
   }

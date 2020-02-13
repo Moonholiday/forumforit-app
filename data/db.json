@@ -5,38 +5,62 @@
       "author": "Anyone have experience with Woozone?  Quality_k1nG",
       "body": "Hey Guys\n\nCurrently, I am trying to make a site with woo-commerce + woozone and ya I picked up nulled theme checked for virus thou but the main problem is the products are not getting imported I tried installing the chrome extension but Idk why it's not working\n\nCan any one help me?\n\nThanks in advance.",
       "id": 1
+    },
+    {
+      "title": "Should I move from namecheap to siteground?",
+      "author": "Burnham",
+      "body": "I am sorry for opening so many threads in hosting section, but when googling \"namecheap vs siteground\" I get mainly results that look like ads. Has anyone here have experience with both namecheap and siteground?",
+      "id": 2
+    },
+    {
+      "title": " HTML Add Textbox & Label",
+      "author": "Yupol Windex",
+      "body": "[Image: N5347yl.png]  IMAGE 1\n\n\n\n[Image: Z9lV0bp.png] IMAGE 2\n\n\nHow can I add to image 1, a 3 box with label and text like in image 2 ?",
+      "id": 3
     }
   ],
   "code": [
     {
-      "title": "can somebody expalin this",
-      "author": "madjar123",
-      "body": "Hello can i ask you one question ? so when i make payload for windows and i type my ip adress in lhost,when i try to type my ip adress on windows machine on google nothing happen i cant go to that server why is that same problem whit android payload i dont understand,but when i type on linux machine that ip on monzila i get resoult why is that happening ? thanks",
-      "id": 1
-    },
-    {
       "title": " Discord bot that auto invites new users to a channel?",
       "author": "ZietzSeV",
       "body": "Is there a way to do this? I see tutorials/apis for writing Discord text bots, that looks relatively simple but I am looking into something that can auto add.\n\nI want a bot/script that can go into a popular channel and basically go through the members and pm them an invite link.",
-      "id": 2
+      "id": 1
     },
     {
       "title": " [Help] Might sound dumb but i wanna learn lua",
       "author": "sethhh",
       "body": "I need to know how to properly use lua and how to get it currently i use Roblox and try to mess around with things in there but what is a proper way to start learning lua?",
-      "id": 3
+      "id": 2
     },
     {
       "title": "[Help] How to bridge Lua & C++ for plugins?",
       "author": "Sybyl",
       "body": "Hi all 👍 , i'm coding a software of security 🤫 on c++, and i want to implement a modular structure, i mean a way to create plugins directly on lua(like other softwares that do this) without touching all the entire C++ code for every plugin, this is because the man who's paying me for do it needs to implement it over other software on his actual server (i have's some kind of weird streaming platform i donut 😧 ).\n\nI only need to know how to connect the two languages, i understand lua but most of my knowledge is on C++ and C...so i need a hand to finish this project 🤭\n\nThanks anyway 🤝",
-      "id": 4
+      "id": 3
     },
     {
       "title": "code help",
       "author": "ori231",
       "body": "how do i make so if i write perl \"mehotd\" and instead of ip a name and it will put the ip automatically ?\nso like if $ip = oren then\n$ip= 10.1.1.1.1",
+      "id": 4
+    },
+    {
+      "title": "title",
+      "author": "rock",
+      "body": "just exp",
       "id": 5
+    },
+    {
+      "title": "Javascript Help",
+      "author": "blackcoder00",
+      "body": "Hi HF i have already finish the javascript as i was thinking but i have found this method like to put a function into the parameter of another function :\nPHP Code \nfunction exemple(a,function()\n{\n//todo\n})\n} \n\nso i want to know what is the name of this method and where can i learn from the basic to advanced level in javascript and ty HK",
+      "id": 6
+    },
+    {
+      "title": " [Help] Sequence print",
+      "author": "jBarrel",
+      "body": "I have an array,\nint dwArr[3] = {2,2,2};\n\nI want the output as:\n\n222\n221\n220\n\n212\n211\n210\n\n202\n201\n200\n...\n\nHow would I go about this route?",
+      "id": 7
     }
   ],
   "hack": [
@@ -71,6 +95,28 @@
       "author": "rSM-",
       "body": "Hello my graphic designers out there! I'm having quite an issue that I cannot find a fix to, and after hours of googling and trying out tutorials and everything else, I'm at a complete loss. I used to use a cracked version of Adobe products (IE After Effects, Photoshop, and Illustrator), and after getting into a graphic design class in college, I decided to purchase the Adobe suite with all Adobe products to help me further my education legally, but my issue comes when trying to uninstall the cracked adobe products and reinstalling the valid adobe products. Every time I try and uninstall CC and the cracked products, an _error_ pops up \"CRLoggerTransport.exe cannot be run\" and \"AdobeIPC.exe cannot be run\". I've manually deleted every adobe file on my PC, but when I go to reinstall CC or any adobe products through my valid license on the website, these errors constantly pop up again. Like I said, I couldn't find a working fix for me and was wondering if any of y'all could possibly provide me with a bit of information or maybe a fix. Thanks :)\nCan I get some help on this please? I'm sure someone knows this issue and how to fix it...",
       "id": 3
+    }
+  ],
+  "tools": [
+    {
+      "title": "Base64 Encoder/Decoder",
+      "brief": "Encode and decode images or strings with this base64 encoder/decoder."
+    },
+    {
+      "title": "Character Counter",
+      "brief": "Counts the number of characters in any given string."
+    },
+    {
+      "title": "Color Picker",
+      "brief": "A simple HTML5 canvas color picker tool."
+    },
+    {
+      "title": "Epoch Converter",
+      "brief": "Convert timestamps to a human readable format and vice versa."
+    },
+    {
+      "title": "Hashing",
+      "brief": "Convert a string into a hash utilizing a variety of functions"
     }
   ]
 }

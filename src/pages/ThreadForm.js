@@ -4,11 +4,11 @@ import axios from "axios";
 class ThreadForm extends Component {
   constructor(props) {
     super(props);
-    this.uploadArticle = this.uploadArticle.bind(this);
+    this.postThread = this.postThread.bind(this);
     this.state = {};
   }
 
-  uploadArticle(e) {
+  postThread(e) {
     e.preventDefault();
     if (document.getElementById("genre").value === "code") {
       axios
@@ -63,7 +63,6 @@ class ThreadForm extends Component {
           alert("error!");
         });
     }
-
     e.target.reset();
   }
 
@@ -72,11 +71,9 @@ class ThreadForm extends Component {
       <>
         <div className="outer-block">
           <h1>Create a new thread.</h1>
-          <p>{this.state.success}</p>
-          <p>{this.state.error}</p>
-          <form className="block" method="post" onSubmit={this.uploadArticle}>
+          <form className="block" method="post" onSubmit={this.postThread}>
             <p>
-              <label for="genre">Genre: </label>
+              <label for="genre">Genre</label>
               <select id="genre">
                 <option value="code">Code</option>
                 <option value="gfx">Gfx</option>
@@ -85,15 +82,15 @@ class ThreadForm extends Component {
               </select>
             </p>
             <p>
-              <label for="title">Title: </label>
+              <label for="title">Title </label>
               <input type="text" id="title" required />
             </p>
             <p>
-              <label for="author">Author: </label>
+              <label for="author">Author </label>
               <input type="text" id="author" required />
             </p>
             <p>
-              <label for="body">Body: </label>
+              <label for="body">Body </label>
               <textarea id="body" required rows="10" />
             </p>
 

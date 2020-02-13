@@ -10,10 +10,12 @@ import Hack from "./pages/Hack";
 import Gfx from "./pages/Gfx";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Search from "./components/Search";
 import Tab from "./components/Tab";
 import Footer from "./components/Footer";
 import ThreadForm from "./pages/ThreadForm";
 import MobileNav from "./components/MobileNav";
+import SignUp from "./pages/SignUp";
 
 function Routes() {
   return (
@@ -21,12 +23,14 @@ function Routes() {
       <MobileNav />
       <Header />
       <Nav />
+      <Search />
       <Tab />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/tools" component={Tools} />
         <Route exact path="/contact" component={Contact} />
         <Route path="/info" component={Info} />
+        <Route path="/sign-up" component={SignUp} />
         <Route path="/web" component={Web} />
         <Route path="/code" component={Code} />
         <Route path="/hack" component={Hack} />
