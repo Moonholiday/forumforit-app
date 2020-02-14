@@ -1,6 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+function GuestMode() {
+  if (localStorage.getItem("userInfo") === null) {
+    return (
+      <>
+        <span>
+          <Link to="/login">Login</Link>
+        </span>
+        <span>
+          <Link to="/sign-up">Sign Up</Link>
+        </span>
+      </>
+    );
+  } else {
+    return null;
+  }
+}
 function Nav() {
   return (
     <>
@@ -28,13 +44,9 @@ function Nav() {
           </li>
         </ul>
       </div>
+
       <div className="credit-nav">
-        <span>
-          <Link to="/login">Login</Link>
-        </span>
-        <span>
-          <Link to="/sign-up">Sign Up</Link>
-        </span>
+        <GuestMode />
         <p>
           <Link to="/search-list">Search</Link>
         </p>

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Link } from "react-router-dom";
 
 class SearchList extends Component {
   constructor(props) {
@@ -8,7 +7,7 @@ class SearchList extends Component {
     this.state = {
       query: "",
       results: {},
-      message: ""
+      message: "No results for the given search"
     };
   }
   fetchSearchResults = query => {
@@ -16,24 +15,25 @@ class SearchList extends Component {
     let two = `http://localhost:3001/gfx?q=${query}`;
     let three = `http://localhost:3001/hack?q=${query}`;
     let four = `http://localhost:3001/web?q=${query}`;
-    const reqOne = axios.get(one);
-    const reqTwo = axios.get(two);
-    const reqThree = axios.get(three);
-    const reqFour = axios.get(four);
+    let reqOne = axios.get(one);
+    let reqTwo = axios.get(two);
+    let reqThree = axios.get(three);
+    let reqFour = axios.get(four);
     axios
       .all([reqOne, reqTwo, reqThree, reqFour])
       .then(
         axios.spread((...reses) => {
-          const resOne = reses[0];
-          const resTwo = reses[1];
-          const resThree = reses[3];
-          const resFour = reses[4];
-          const temp = resOne.data.concat(
+          let resOne = reses[0];
+          let resTwo = reses[1];
+          let resThree = reses[2];
+          let resFour = reses[3];
+          // if (Array.isArray(resFour.data)) console.log("array");
+          let results = resOne.data.concat(
             resTwo.data,
             resThree.data,
             resFour.data
           );
-          console.log(temp);
+          this.setState({ results });
         })
       )
       .catch(error => {
@@ -42,13 +42,32 @@ class SearchList extends Component {
         }
       });
   };
-  renderSearchResults() {
-    return (
-      <div>
-        <h1>Hello</h1>
-      </div>
-    );
-  }
+
+  renderSearchResults = () => {
+    const { results } = this.state;
+    // if (Array.isArray(this.state.results)) console.log("array");
+    if (Object.keys(results).length && results.length) {
+      return (
+        <div className="outer-block">
+          {this.state.results.map(item => {
+            return (
+              <div className="block">
+                <h3>{item.title}</h3>
+                <h5>{item.author}</h5>
+                <p>{item.body}</p>
+              </div>
+            );
+          })}
+        </div>
+      );
+    } else {
+      return (
+        <div className="outer-block">
+          <h4 className="page-title">{this.state.message}</h4>
+        </div>
+      );
+    }
+  };
 
   handleOnInputChange = event => {
     const query = event.target.value;
@@ -70,8 +89,8 @@ class SearchList extends Component {
             placeholder="Search"
             onChange={this.handleOnInputChange}
           />
-          {this.renderSearchResults}
         </div>
+        {this.renderSearchResults()}
       </>
     );
   }

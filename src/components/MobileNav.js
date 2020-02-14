@@ -28,18 +28,15 @@ function MobileNav() {
         <div>
           <Link to="/info">Info</Link>
         </div>
+        <div>
+          <Link to="/search-list">Search</Link>
+        </div>
       </div>
       <div id="mobile-nav" className="mobile-nav clearfix">
-        <button id="profile">
-          <img src="images/profile.png" alt="profile" />
-        </button>
         <button id="menu" className="mobile-btns" onClick={openNav}>
           <img src="images/menu.png" alt="menu" />
         </button>
-        <button id="login" className="mobile-btns">
-          <Link to="/login">Login</Link>
-        </button>
-        <button id="signup" className="mobile-btns">
+        <button id="sign-up" className="mobile-btns">
           <Link to="/sign-up">Sign Up</Link>
         </button>
       </div>

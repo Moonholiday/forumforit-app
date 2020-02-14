@@ -61,6 +61,12 @@
       "author": "jBarrel",
       "body": "I have an array,\nint dwArr[3] = {2,2,2};\n\nI want the output as:\n\n222\n221\n220\n\n212\n211\n210\n\n202\n201\n200\n...\n\nHow would I go about this route?",
       "id": 7
+    },
+    {
+      "title": "title",
+      "author": "author",
+      "body": "body",
+      "id": 8
     }
   ],
   "hack": [
@@ -117,6 +123,14 @@
     {
       "title": "Hashing",
       "brief": "Convert a string into a hash utilizing a variety of functions"
+    }
+  ],
+  "contact": [
+    {
+      "title": "tsa",
+      "email": "asdfasd@asdf",
+      "body": "adsfasdfasd",
+      "id": 1
     }
   ]
 }

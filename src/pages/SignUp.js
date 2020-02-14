@@ -12,10 +12,9 @@ class SignUp extends Component {
   }
   handleSubmit = event => {
     event.preventDefault();
-    if (typeof (localStorage.getItem("userInfo") === undefined)) {
+    if (localStorage.getItem("userInfo") === null) {
       localStorage.setItem("userInfo", JSON.stringify(this.state));
-    }
-    if (typeof (localStorage.getItem("userInfo") !== undefined)) {
+    } else {
       alert("you are already logged in!!");
     }
     event.target.reset();
@@ -35,10 +34,6 @@ class SignUp extends Component {
       password: event.target.value
     });
   };
-
-  handleSignIn() {
-    let signedUp = true;
-  }
 
   render() {
     return (
@@ -79,7 +74,7 @@ class SignUp extends Component {
               />
             </p>
             <p>
-              <button onClick={this.handleSignIn} type="submit">
+              <button type="submit">
                 <Link to="/">Sign up</Link>
               </button>
             </p>

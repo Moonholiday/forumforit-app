@@ -7,11 +7,12 @@ class Contact extends Component {
     this.contactMessage = this.contactMessage.bind(this);
     this.state = {};
   }
-  contactMessage() {
+  contactMessage(e) {
+    e.preventDefault();
     axios
       .post("http://localhost:3001/contact", {
         title: document.getElementById("subject").value,
-        author: document.getElementById("email").value,
+        email: document.getElementById("email").value,
         body: document.getElementById("body").value
       })
       .then(res => {
@@ -21,7 +22,6 @@ class Contact extends Component {
         alert("error!");
       });
   }
-  axios;
 
   render() {
     return (
@@ -30,7 +30,7 @@ class Contact extends Component {
           <h2>Contact Us</h2>
         </div>
         <div className="outer-block">
-          <form className="block" method="post">
+          <form className="block" method="post" onSubmit={this.contactMessage}>
             <p>
               <label for="subject">Title </label>
               <input type="text" id="subject" autoComplete="off" required />
